@@ -95,6 +95,9 @@
 
     //-----custom functions-----
     //-----end of custom functions-----
+    <div class='well'>
+  <div id='results_list'></div>
+</div>
 
     MapsLib.prototype.submitSearch = function (whereClause, map) {
         var self = this;
